@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/GenderIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/GenderIcon"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/TopPersonInfo"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            tools:text="Jay Cui"/>
+
+        <TextView
+            android:id="@+id/BottomPersonInfo"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            tools:text="Child"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="SettingsActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:text="@string/LifeStoryLines"
+                android:gravity="start"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Switch
+                android:id="@+id/LifeStoryLinesSwitch"
+                android:gravity="end"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/FamilyTreeLines"
+                android:gravity="start"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Switch
+                android:id="@+id/FamilyTreeLinesSwitch"
+                android:gravity="end"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/SpouseLines"
+                android:gravity="start"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Switch
+                android:id="@+id/SpouseLineSwitch"
+                android:gravity="end"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/Paternal"
+                android:gravity="start"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Switch
+                android:id="@+id/DadSideSwitch"
+                android:gravity="end"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/Maternal"
+                android:gravity="start"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Switch
+                android:id="@+id/MomSideSwitch"
+                android:gravity="end"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/MaleEvents"
+                android:gravity="start"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Switch
+                android:id="@+id/MaleEventsSwitch"
+                android:gravity="end"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/FemaleEvents"
+                android:gravity="start"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Switch
+                android:id="@+id/FemaleEventsSwitch"
+                android:gravity="end"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/LogoutTextView"
+        android:text="@string/Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="PersonActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:text="@string/FirstName"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/FirstNameTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                tools:text="Jay"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/LastName"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/LastNameTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                tools:text="Cui"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/Gender"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/GenderTextView"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                tools:text="Male"/>
+        </TableRow>
+    </TableLayout>
+
+    <ExpandableListView
+        android:id="@+id/ExpandableList"
+        android:indicatorLeft="?android:attr/expandableListPreferredChildIndicatorLeft"
+        android:dividerHeight="0.5dp"
+        android:divider="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        tools:context=".view.PersonActivity" />
+
+</LinearLayout>

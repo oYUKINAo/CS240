@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Family Map</string>
+
+    <!-- Main Activity: Login Fragment -->
+    <string name="serverHostLabel">Server Host: </string>
+    <string name="serverPortLabel">Server Port: </string>
+    <string name="usernameLabel">Username: </string>
+    <string name="passwordLabel">Password: </string>
+    <string name="firstNameLabel">First Name: </string>
+    <string name="lastNameLabel">Last Name: </string>
+    <string name="emailLabel">Email: </string>
+    <string name="genderLabel">Gender: </string>
+
+    <string name="maleLabel">Male</string>
+    <string name="femaleLabel">Female</string>
+
+    <string name="loginLabel">Login</string>
+    <string name="registerLabel">Register</string>
+
+    <!-- Main Activity: Map Fragment -->
+    <string name="DefaultLabel">Click on a marker to see event details</string>
+
+    <!-- Search Activity -->
+    <string name="SearchActivityTitle">Family Map: Search</string>
+
+    <!-- Person Activity -->
+    <string name="FirstName">First Name:\u0020</string>
+    <string name="LastName">Last Name:\u0020</string>
+    <string name="Gender">Gender:\u0020</string>
+
+    <string name="EventExpandableGroupTitle">LIFE EVENTS</string>
+    <string name="PersonExpandableGroupTitle">FAMILY</string>
+
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+
+    <!-- Settings Activity -->
+    <string name="LifeStoryLines">Life Story Lines</string>
+    <string name="FamilyTreeLines">Family Tree Lines</string>
+    <string name="SpouseLines">Spouse Lines</string>
+    <string name="Paternal">Father\'s Side</string>
+    <string name="Maternal">Mother\'s Side</string>
+    <string name="MaleEvents">Male Events</string>
+    <string name="FemaleEvents">Female Events</string>
+    <string name="Logout">Logout</string>
+
+</resources>
