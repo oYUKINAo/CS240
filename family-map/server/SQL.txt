@@ -1,0 +1,37 @@
+CREATE TABLE Users {
+    Username VARCHAR(255),
+    Password VARCHAR(255),
+    Email VARCHAR(255),
+    FirstName VARCHAR(255),
+    LastName VARCHAR(255),
+    Gender CHAR(1),
+    PersonID VARCHAR(255)
+};
+
+CREATE TABLE People {
+    PersonID VARCHAR(255),
+    AssociatedUsername VARCHAR(255),
+    FirstName VARCHAR(255),
+    LastName VARCHAR(255),
+    Gender VARCHAR(1),
+    FatherID VARCHAR(255),
+    MotherID VARCHAR(255),
+    SpouseID VARCHAR(255)
+};
+
+CREATE TABLE Event {
+    EventID VARCHAR(255),
+    AssociatedUsername VARCHAR(255),
+    PersonID VARCHAR(255),
+    Latitude FLOAT(10),
+    Longitude FLOAT(10),
+    Country VARCHAR(255),
+    City VARCHAR(255),
+    EventType VARCHAR(255),
+    Year SMALLINT(4)
+};
+
+CREATE TABLE AuthorizationToken {
+    Username VARCHAR(255),
+    Token VARCHAR(255)
+};
