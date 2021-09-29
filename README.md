@@ -1,2 +1,2 @@
 # Advanced Software Development
-As part of my Computer Science minor, I had the opportunity to build an app (Family Map) from scratch, including the Android UI, the Java API, and the SQL backend. Other applications include a Spelling Corrector and an Evil Hangman.
+As part of my Computer Science minor, I had the opportunity to build an app (Family Map) from scratch, including its Android UI, Java API, and SQL backend. I also created two games: a Spelling Corrector and an Evil Hangman.
